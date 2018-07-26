@@ -1,0 +1,183 @@
+
+
+h1 {
+	text-align: center;
+	font-family: 'Poiret One';
+	font-weight: 100;
+	color: white;
+	margin-top: 1em;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Poiret One';
+	font-weight: 100;
+	color: white;
+	margin-top: 2em;
+	font-size: 50px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Poiret One';
+	font-weight: 100;
+	color: white;
+	margin-top: 2em
+	font-size: 5px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 2em;
+}
+
+body {
+	background-color: black;
+}
+
+p {
+	text-align: center;
+	color: white;
+	display: block;
+	margin: auto;
+	max-width: 500px;
+	margin-top:1em;
+}
+
+.resize {
+	width:100%;
+	max-width: 50px;
+	margin-top: 2em
+	
+}
+
+.arrow {
+	width:100%;
+	max-width: 25px;
+	display: block;
+	margin: auto;
+}
+
+.back2 {
+	background-image: url("pictures/back2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: block;
+	margin: auto;
+}
+
+.back1 {
+	background-image: url("pictures/back2_1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: block;
+	margin: auto;
+}
+
+.back3 {
+	background-image: url("pictures/back3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: block;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	text-align: center;
+	font-family: 'Poiret One';
+	text-decoration: none;
+	display: block;
+	margin: auto;
+}
+
+a:visited{
+	color: white;
+}
+
+.left {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+/* 
+	text-align: left;
+ */
+ }
+ 
+ .right {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+/* 
+	text-align: left;
+ */
+ }
+
+.left p, .left div {
+	width: 100%;
+	max-width: 400px;
+}
+
+.right p, .right div {
+	width: 100%;
+	max-width: 400px;
+}
+
+li {
+
+	text-align: center;
+	font-family: 'Poiret One';
+	text-decoration: none;
+	display: block;
+	margin: auto;
+	color: white;
+}
+
+.listcenter {
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 600px;
+}
+
+.sideleft {
+	background-image: url("pictures/back2_1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: block;
+	margin: auto;
+}
+
+.sideright {
+	background-image: url("pictures/back2_2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: block;
+	margin: auto;
+}
+
+.imgAdder2 {
+
+}
+
+.imgAdder1 {
+
+}
